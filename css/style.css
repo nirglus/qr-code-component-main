@@ -1,3 +1,21 @@
 body{
-    background-color: hsl(212, 45%, 89%)
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+}
+.qr-card img{
+    width:20vw;
+}
+.qr-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2vw;
+    background-color: #fff;
+    width: 25vw;
+    height: fit-content;
 }
