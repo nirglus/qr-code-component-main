@@ -44,3 +44,23 @@ p{
         width: 58vw;
     }
 }
+@media (min-width:320px) and (max-width:370px){
+    .qr-card{
+        width: 71%;
+        height: 81%;
+        padding-top: 0%;
+    }
+    .qr-card img{
+        width: 67vw;
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    .qr-card{
+        width: 30%;
+        height: 84%;
+        padding-top: 0%;
+    }
+    .qr-card img{
+        width: 30vw;
+    }
+}
