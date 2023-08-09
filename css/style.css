@@ -14,8 +14,10 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap:2vw;
     background-color: #fff;
-    width: 25vw;
+    width: 20vw;
     height: fit-content;
+    padding: 1%;
+    border-radius: 20px;
+    text-align: center;
 }
